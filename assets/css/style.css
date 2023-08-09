@@ -26,6 +26,10 @@ p {
     margin-bottom: 0 !important;
 }
 
+.pl-2 {
+    padding-left: 16px;
+}
+
 /* 
 .ml25 {
     margin-left: 25px;
@@ -39,9 +43,7 @@ p {
     margin-left: 53px;
 }
 
-.ml417 {
-    margin-left: 417px;
-}
+
 
 .here {
     display: flex;
@@ -168,8 +170,8 @@ p {
         height: 24px;
         cursor: pointer;
         display: flex;
-        position: absolute;
-        top: 2%;
+        position: fixed;
+        top: 0.5%;
         left: 4%;
         justify-content: space-between;
         flex-direction: column;
@@ -210,9 +212,9 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: start;
+        justify-content: center;
         width: 50%;
-        height: 10%;
+        height: 45%;
         background-color: #ed8586;
         position: fixed;
         top: 0;
@@ -221,6 +223,14 @@ p {
         pointer-events: none;
         transition: all 500ms linear;
         z-index: 1;
+    }
+
+    .ml63 {
+        margin-left: 0px;
+    }
+
+    .ml53 {
+        margin-left: 0px;
     }
 
     .newbox:hover {
@@ -235,7 +245,7 @@ p {
     }
 
     .box3 {
-        width: 119px;
+        max-width: 119px;
         height: 129px;
         flex-shrink: 0;
         border: 1px solid rgba(0, 0, 0, 0.20);
@@ -257,6 +267,14 @@ p {
     .box5:hover {
         background-color: #000;
         color: #FFF;
+    }
+
+    .ml20 {
+        margin-left: 20px;
+    }
+
+    .pl-2 {
+        padding-left: 0px;
     }
 
     .box5 {
@@ -305,6 +323,13 @@ p {
         font-size: 9px;
     }
 
+    .men {
+        width: 100%;
+    }
+
+
+
+
 }
 
 
@@ -327,7 +352,10 @@ p {
         padding-left: 34px;
     }
 
+
+
     .eye {
+        width: 20%;
         margin-left: 34px;
     }
 
