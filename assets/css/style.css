@@ -135,6 +135,11 @@ p {
     margin-left: 14px;
 }
 
+.radio {
+    width: 28px;
+    height: 28px;
+}
+
 .mt39 {
     margin-top: 39px;
 }
